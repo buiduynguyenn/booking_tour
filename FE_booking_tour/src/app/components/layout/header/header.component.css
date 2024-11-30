@@ -1,0 +1,24 @@
+header {
+    background-color: #4CAF50; /* Màu nền */
+    padding: 10px; /* Khoảng cách bên trong */
+    color: white; /* Màu chữ */
+}
+
+nav ul {
+    list-style-type: none; /* Xóa dấu chấm đầu dòng */
+    padding: 0; /* Xóa khoảng cách bên trong */
+}
+
+nav ul li {
+    display: inline; /* Hiển thị các mục trong cùng một hàng */
+    margin-right: 20px; /* Khoảng cách giữa các mục */
+}
+
+nav ul li a {
+    color: white; /* Màu chữ cho liên kết */
+    text-decoration: none; /* Xóa gạch chân */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
