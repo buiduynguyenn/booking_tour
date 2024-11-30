@@ -1,0 +1,9 @@
+footer {
+    background-color: #333; /* Màu nền */
+    color: white; /* Màu chữ */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 10px; /* Khoảng cách bên trong */
+    position: relative; /* Để footer nằm ở dưới cùng */
+    bottom: 0;
+    width: 100%; /* Chiều rộng đầy đủ */
+}

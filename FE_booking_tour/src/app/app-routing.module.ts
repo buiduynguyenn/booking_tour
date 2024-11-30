@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'users', component: UserComponent },
   { path: 'reviews', component: ReviewComponent }, 
   { path: 'bookings', component: BookingComponent },
-  // { path: '', redirectTo: '/tours', pathMatch: 'full' }, 
+  { path: '', redirectTo: '/tours', pathMatch: 'full' }, // Mặc định chuyển hướng đến /tours
+  { path: '**', redirectTo: '/tours' } // Xử lý route không tồn tại
 ];
 
 @NgModule({
