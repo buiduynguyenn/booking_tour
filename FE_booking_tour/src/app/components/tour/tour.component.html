@@ -1,0 +1,23 @@
+<h2>Danh Sách Tours</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Mô tả</th>
+            <th>Giá</th>
+            <th>Thời gian</th>
+            <th>Địa điểm</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let tour of tours">
+            <td>{{ tour.id }}</td>
+            <td>{{ tour.name }}</td>
+            <td>{{ tour.description }}</td>
+            <td>{{ tour.price }}</td>
+            <td>{{ tour.duration }}</td>
+            <td>{{ tour.location }}</td>
+        </tr>
+    </tbody>
+</table>

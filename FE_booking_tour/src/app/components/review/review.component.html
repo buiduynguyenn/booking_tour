@@ -1,0 +1,21 @@
+<h2>Danh Sách Đánh Giá</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User ID</th>
+            <th>Tour ID</th>
+            <th>Rating</th>
+            <th>Bình luận</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let review of reviews">
+            <td>{{ review.id }}</td>
+            <td>{{ review.userId }}</td>
+            <td>{{ review.tourId }}</td>
+            <td>{{ review.rating }}</td>
+            <td>{{ review.comment }}</td>
+        </tr>
+    </tbody>
+</table>

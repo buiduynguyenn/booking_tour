@@ -1,0 +1,21 @@
+<h2>Danh Sách Đặt Tour</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User ID</th>
+            <th>Tour ID</th>
+            <th>Số lượng người</th>
+            <th>Tổng giá trị</th> 
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr *ngFor="let booking of bookings"> 
+            <td>{{ booking.id }}</td> 
+            <td>{{ booking.userId }}</td> 
+            <td>{{ booking.tourId }}</td> 
+            <td>{{ booking.numberOfPeople }}</td> 
+            <td>{{ booking.totalPrice }}</td> 
+        </tr> 
+    </tbody> 
+</table> 
