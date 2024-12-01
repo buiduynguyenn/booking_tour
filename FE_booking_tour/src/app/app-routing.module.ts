@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: '**', redirectTo: '/tours' } // Xử lý route không tồn tại
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

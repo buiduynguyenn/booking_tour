@@ -1,7 +1,5 @@
 package com.angular_spring.booking_tour.entity;
 
-import javax.management.relation.Role;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
